@@ -1,0 +1,19 @@
+npm init -y
+npm i typescript @type/node tsx -D
+npx tsc --init
+
+Copiar o conteudo do tsconfig(https://www.npmjs.com/package/@tsconfig/node20) e subestituir no seu 
+
+npm i fastify
+
+Para rodar o docker-compose.yml
+  sudo docker compose up -d
+
+Ve se está rodando 
+  sudo docker ps
+
+Remove os containers
+  sudo docker compose down
+
+npm i postgres redis
+npm i zod

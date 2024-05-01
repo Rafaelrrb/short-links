@@ -1,0 +1,19 @@
+POST http://localhost:3333/api/links
+Content-Type: application/json
+
+{
+  "code": "test2",
+  "url": "https://google.com"
+}
+
+###
+#lista de links
+GET http://localhost:3333/api/links
+
+###
+#busca um link
+GET http://localhost:3333/test2
+
+###
+#numero de buscas de cada link
+GET http://localhost:3333/api/metrics
